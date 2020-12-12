@@ -1,5 +1,5 @@
-import config as cfg
-import illustrative_example as ill
+from _main import config as cfg
+from _model import illustrative_example as ill
 import numpy as np
 import math
 import scipy as sc
@@ -10,7 +10,7 @@ from scipy.stats import uniform
 from scipy import stats
 from scipy import signal as scsig
 import types
-
+import pandas as pd
 global a, data, b, time_star, y, y_star, n, omega, sigma, sigma_beta, omega_star, omega_prop
 
 
